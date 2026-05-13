@@ -1,8 +1,8 @@
 # noahswilson.com
 
-Hosting scaffold for Noah Wilson's personal portfolio website.
+Noah Wilson's personal portfolio website.
 
-The frontend is intentionally not implemented yet. GitHub Pages will publish the contents of `public/` when changes land on `main`.
+GitHub Pages publishes the static site in `public/` when changes land on `main`.
 
 ## Hosting
 
@@ -20,4 +20,4 @@ The frontend is intentionally not implemented yet. GitHub Pages will publish the
 4. Configure DNS records with your domain provider using the values in `docs/github-pages-setup.md`.
 5. After DNS settles, enable Enforce HTTPS in the repository's Pages settings.
 
-When the portfolio frontend is ready, add the site files to `public/` or update `.github/workflows/pages.yml` to upload the frontend build output instead.
+The current site is plain HTML, CSS, JavaScript, and static assets. If the project later moves to a frontend framework, update `.github/workflows/pages.yml` to upload the generated build output instead of `public/`.
